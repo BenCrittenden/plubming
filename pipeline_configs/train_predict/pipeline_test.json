@@ -1,0 +1,10 @@
+{
+  "gold_filename": "application_credit_matrix.feather",
+  "model_filename": "predict_credit_approval",
+  "hyperparameters": {
+    "loss": "log_loss",
+    "learning_rate": 0.1,
+    "n_estimators": 100
+  },
+  "classifier_threshold": 0.5
+}

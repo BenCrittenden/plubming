@@ -1,0 +1,17 @@
+{
+  "raw_applications_filename": "application_record.csv",
+  "raw_credit_filename": "credit_record.csv",
+  "silver_filename": "application_credit_records.json",
+  "gold_filename": "application_credit_matrix.feather",
+  "preprocessing_steps": [
+    "drop_duplicate_rows",
+    "drop_columns_with_null_values",
+    "drop_columns_with_homogenous_values"
+  ],
+  "feature_building_steps": [
+    "one_hot_encode_categorical",
+    "binarize_values",
+    "age_from_days",
+    "select_columns"
+  ]
+}
